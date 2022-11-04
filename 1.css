@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Yellowtail', cursive;
+	box-sizing: border-box;
+}
+#contenedor{
+	width: 960px;
+	margin: 0 auto;
+}
+body{
+	background-image: url('dragon.jpg');
+	background-size: cover;
+	
+}
+header{
+	margin-top: 2em;
+	background-color: #EA8B3E;
+	font-size: 20pt;
+	padding: 1em;
+	border-radius: 15px;
+	margin-bottom: 1em;
+	background-image: url('libro.jpg');
+	background-size: cover;
+}
+header, section, footer{
+	float: left;
+	width: 100%;
+}
+section aside{
+	float: left;
+	width: 25%;
+	background-color: black;
+	margin-right: 1em;
+	border-radius: 15px;
+}
+section section{
+	float: left;
+	width: 52%;
+	background-color: #CF9653;
+	border-radius: 15px;
+}
+
+section aside ul{
+	list-style-type: none;
+}
+section aside ul a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding: .75em;
+	border-radius: 15px;
+}
+section aside ul a:hover{
+	background-color: white;
+	color: black;
+}
+section{
+	margin-bottom: 2em;
+}
+section section {
+	padding: .5em;
+}
+section section article h2{
+	text-align: center;
+}
+section section article p{
+	line-height: 170%;
+}
+footer{
+	padding: .75em;
+	background-color: #EA8B3E;
+	border-radius: 15px;
+}
+section#otrolado{ 
+   	width: 20%; 
+   	float: right;
+   	background-image: url(g.gif);
+   	background-size: cover;
+   	height: 350px;
+	width: 200px;
+	justify-content: center;
+	}
+p#fo{
+	text-align: center;
+}
+
